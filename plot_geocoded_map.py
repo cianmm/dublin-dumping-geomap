@@ -8,7 +8,7 @@ data = pd.read_csv(file_path)
 
 # Initialize a folium map centered around Dublin
 dublin_coords = [53.3498, -6.2603]  # Coordinates for Dublin
-map_dublin = folium.Map(location=dublin_coords, zoom_start=12)
+map_dublin = folium.Map(location=dublin_coords, zoom_start=12, prefer_canvas=True)
 
 # Add points to the map
 points_added = 0
