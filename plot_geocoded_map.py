@@ -26,7 +26,7 @@ heat_data = [[row['Latitude'], row['Longitude']] for _, row in data.iterrows() i
 HeatMap(heat_data).add_to(map_dublin)
 
 # Save the map to an HTML file
-output_file_path = 'dublin_geocoded_map.html'
+output_file_path = 'index.html'
 map_dublin.save(output_file_path)
 
 print(f"Map saved to {output_file_path} with {points_added} points")
