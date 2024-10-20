@@ -7,7 +7,7 @@ file_path = 'litter-fine-data-2021-2023.csv'  # Replace with your CSV file path
 data = pd.read_csv(file_path)
 
 # Initialize Google Maps Geocoding client
-API_KEY = 'AIzaSyDGW0zXScfhh-opLbYHuM1JMVzb7haIrK0'  # Replace with your actual Google Maps API key
+API_KEY = '{KEY}'  # Replace with your actual Google Maps API key
 gmaps = googlemaps.Client(key=API_KEY)
 
 # Function to geocode a location using Google Maps API
